@@ -1,16 +1,13 @@
-# filmophilia
+# Filmophilia
 
-A new Flutter project.
+Another project using TMDB API, but like the description said... i'll add the option to play movies to this app.
+So ya.. this is a v0.1 version [LOL]
+
+For more detail about updated feature, go to [release page](https://github.com/ufebri/filmophilia/releases).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project using [flutter_dotenv](https://pub.dev/packages/flutter_dotenv), make sure to add your api key to file .env
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+<img src="screenshoot/1.png"/> <img src="screenshoot/2.png"/> <img src="screenshoot/3.png"/>
