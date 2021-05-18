@@ -10,4 +10,4 @@ For more detail about updated feature, go to [release page](https://github.com/u
 This project using [flutter_dotenv](https://pub.dev/packages/flutter_dotenv), make sure to add your api key to file .env
 
 ## Screenshot
-<img src="screenshoot/1.png"/> <img src="screenshoot/2.png"/> <img src="screenshoot/3.png"/>
+<img src="screenshoot/1.png" height="400" alt="Filmophilia Home"/> <img src="screenshoot/2.png" height="400" alt="Filmophilia Search"/> <img src="screenshoot/3.png" height="400" alt="Filmophilia Detail"/>
