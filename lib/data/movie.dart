@@ -1,10 +1,10 @@
 class Movie {
-  int id;
-  String title;
-  double voteAverage;
-  String releaseDate;
-  String overview;
-  String posterPath;
+  int id = 0;
+  String title = "";
+  double voteAverage = 0;
+  String releaseDate = "";
+  String overview = "";
+  String posterPath = "";
 
   Movie(this.id, this.title, this.voteAverage, this.releaseDate, this.overview,
       this.posterPath);

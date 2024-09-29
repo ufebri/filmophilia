@@ -9,10 +9,10 @@ class MovieList extends StatefulWidget {
 }
 
 class _MovieListState extends State<MovieList> {
-  String result;
-  HttpHelper helper;
-  int moviesCount;
-  List movies;
+  late String result;
+  late HttpHelper helper;
+  int moviesCount = 0;
+  late List movies;
   final String defaultImage =
       'https://images.freeimages.com/images/large-previews/5eb/movie-clapboard-1184339.jpg';
   Icon visibleIcon = Icon(Icons.search);
@@ -88,7 +88,7 @@ class _MovieListState extends State<MovieList> {
 
   Future initialize() async {
     movies = [];
-    movies = await helper.getRecentUpdate();
+    movies = (await helper.getRecentUpdate())!;
     setState(() {
       moviesCount = movies.length;
       movies = movies;
@@ -96,7 +96,7 @@ class _MovieListState extends State<MovieList> {
   }
 
   Future search(text) async {
-    movies = await helper.findMovies(text);
+    movies = (await helper.findMovies(text))!;
     setState(() {
       moviesCount = movies.length;
       movies = movies;
